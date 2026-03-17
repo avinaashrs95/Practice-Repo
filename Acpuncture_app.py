@@ -214,7 +214,7 @@ elif menu == "Treatments":
 
         notes = st.text_area("Doctor Notes")
 
-        if st.button("Save Treatment"):
+        if st.button("Save Treat"):
 
             c.execute("""
             INSERT INTO treatments
